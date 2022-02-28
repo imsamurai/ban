@@ -12,7 +12,7 @@ https://goonbus.ru/
 https://krasnodar1.ru/
 https://rfbus.ru/
 https://russia.poezda.net/
-https://www.avtovokzaly.ru/
 https://www.poezda.net/
 https://www.tutu.ru/
 https://avtovokzal31.ru/wp-admin/admin-ajax.php
+https://www.avtovokzaly.ru/city/suggest?query=go%20fuck%20yourself
