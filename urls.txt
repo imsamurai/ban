@@ -7,7 +7,6 @@ https://vokzalrostov.ru/
 http://rostov.dzvr.ru/
 http://voronezh.rusavtobus.ru/
 http://www.bus46.ru/
-https://avtovokzal31.ru/
 https://busfor.ru/
 https://goonbus.ru/
 https://krasnodar1.ru/
@@ -16,3 +15,4 @@ https://russia.poezda.net/
 https://www.avtovokzaly.ru/
 https://www.poezda.net/
 https://www.tutu.ru/
+https://avtovokzal31.ru/wp-admin/admin-ajax.php
