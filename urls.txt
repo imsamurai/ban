@@ -1,3 +1,4 @@
+http://194.85.61.76
 http://46reg.roszdravnadzor.ru
 http://aids-orel.ru
 http://bus46.ru/php/getStationForecasts.php?sid=766&type=0&city=kursk&info=01234&_=2646087296911
