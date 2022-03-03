@@ -12,3 +12,4 @@ http://zdravorel.ru
 http://www.mgnp.info/
 https://icmos.ru/news
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
+https://mos-gorsud.ru/
