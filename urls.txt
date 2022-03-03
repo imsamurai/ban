@@ -19,3 +19,4 @@ https://www.nalog.gov.ru/rn77/search/?type=all&text=%D0%BF%D1%83%D1%82%D0%B8%D0%
 https://oibmmc.mos.ru/auth-mmc-lk/login?2&service=http://lkmmc.mos.ru/mmcinfosupplier/oib-auth/check
 https://data.mos.ru
 https://data.gov.ru/information-usage
+https://mmc.mos.ru/client-office/
