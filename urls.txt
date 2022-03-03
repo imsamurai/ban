@@ -5,7 +5,6 @@ http://bus46.ru/php/getStationForecasts.php?sid=766&type=0&city=kursk&info=01234
 http://ffoms.ru/
 http://rostov.dzvr.ru/
 https://1rfbus.ru/drivers_ajax.php?action=login&login=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&password=%D1%85%D1%86%D0%B9%D0%B4%D0%BB
-https://85.15.69.64
 https://adm.rkursk.ru/index.php?id=390
 https://avtovokzal31.ru/
 https://busfor.ru/
@@ -15,9 +14,7 @@ https://kurskzdrav.ru
 https://minzdrav.donland.ru/
 https://poezd.ru/
 https://rfbus.ru/
-https://russia.poezda.net/
 https://rzd.ru/
-https://tagancity.ru/
 https://tagmed1.ru/
 https://www.avtovokzaly.ru/avtobus/varshava-nursultan?date=24.02.2022
 https://www.brkmed.ru
