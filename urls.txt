@@ -9,3 +9,4 @@ http://tgb3.ru/
 http://voronezh.rusavtobus.ru/modules/autocomplete/autocomplete.php?q=%D0%BA%D0%BE%D0%BB&city=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6
 http://www.uztag.ru
 http://zdravorel.ru
+http://www.mgnp.info/
