@@ -1,16 +1,5 @@
-http://bsmp-1.ru/taxonomy/term/8?page=25
-http://bus46.ru/php/getStationForecasts.php?sid=766&type=0&city=kursk&info=01234&_=2646087296911
-https://rfbus.ru/
-https://adm.rkursk.ru/index.php?id=390
-https://poezd.ru/
-https://hotels.rfbus.ru/ru/hotel/search.php?sd=2022-03-04&ed=2022-03-05&target_show=Мстинский Мост&target=city_54848&guests=1&client_show=WWW&client=3287
-https://www.avtovokzaly.ru/avtobus/varshava-nursultan?date=24.02.2022
-http://tgb3.ru/
-http://voronezh.rusavtobus.ru/modules/autocomplete/autocomplete.php?q=%D0%BA%D0%BE%D0%BB&city=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6
-http://www.uztag.ru
-http://zdravorel.ru
 http://www.mgnp.info/
-https://icmos.ru/news
+https://icmos.ru/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
 https://mos-gorsud.ru/
 https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0%BF%D1%83%D1%82%D0%B8%D0%BD
@@ -20,3 +9,9 @@ http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query
 https://msk.arbitr.ru/about/ourJudges/novikov
 http://ombudsman.mos.ru/ru/news_msk/index.html
 https://www.advokatymoscow.ru/search/?q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
+https://msk.arbitr.ru/sitemap
+https://mostpp.ru/search/?how=d&s=%C8%F1%EA%E0%F2%FC&q=%EF%F3%F2%E8%ED+%F5%F3%E9%EB%EE&where=&from=&to=
+https://mc.mos.ru/ru
+https://77.rospotrebnadzor.ru/index.php/component/search/?searchword=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&searchphrase=all&Itemid=136
+https://donor.mos.ru/poisk-po-sajtu?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD%20%D1%85%D1%83%D0%B9%D0%BB%D0%BE
+https://www.nalog.gov.ru/rn77/search/
