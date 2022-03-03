@@ -15,3 +15,4 @@ https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&l
 https://mos-gorsud.ru/
 https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0%BF%D1%83%D1%82%D0%B8%D0%BD
 https://mtuf.ru/
+https://mostpp.ru/news/
