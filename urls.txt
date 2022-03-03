@@ -10,3 +10,4 @@ http://voronezh.rusavtobus.ru/modules/autocomplete/autocomplete.php?q=%D0%BA%D0%
 http://www.uztag.ru
 http://zdravorel.ru
 http://www.mgnp.info/
+https://icmos.ru/news
