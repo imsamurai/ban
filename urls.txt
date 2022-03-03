@@ -16,3 +16,4 @@ https://mc.mos.ru/ru/superior/mmc/recruitment-of-foreign-citizens
 https://77.rospotrebnadzor.ru/index.php/component/search/?searchword=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&searchphrase=all&Itemid=136
 https://donor.mos.ru/poisk-po-sajtu?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD%20%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://www.nalog.gov.ru/rn77/search/?type=all&text=%D0%BF%D1%83%D1%82%D0%B8%D0%BD%20%D1%85%D1%83%D0%B9%D0%BB%D0%BE
+https://oibmmc.mos.ru/auth-mmc-lk/login?2&service=http://lkmmc.mos.ru/mmcinfosupplier/oib-auth/check
