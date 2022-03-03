@@ -4,7 +4,7 @@ https://1rfbus.ru/drivers_ajax.php?action=login&login=%D0%BF%D1%83%D1%82%D0%B8%D
 https://adm.rkursk.ru/index.php?id=390
 https://minzdrav.donland.ru/
 https://poezd.ru/
-https://rfbus.ru/
+https://hotels.rfbus.ru/ru/hotel/search.php?sd=2022-03-04&ed=2022-03-05&target_show=Мстинский Мост&target=city_54848&guests=1&client_show=WWW&client=3287
 https://rzd.ru/
 https://tagmed1.ru/
 https://www.avtovokzaly.ru/avtobus/varshava-nursultan?date=24.02.2022
