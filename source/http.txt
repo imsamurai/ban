@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt
+https://raw.githubusercontent.com/xfreed/Proxy-List/main/Proxy_Http.txt
+https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt
+https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt
+https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt
+https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt
+https://raw.githubusercontent.com/UserR3X/proxy-list/main/http.txt
