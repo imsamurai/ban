@@ -1,6 +1,6 @@
 http://www.mgnp.info/
 https://goonbus.ru/ + X-Requested-With: XMLHttpRequest + Referer: http://goonbus.ru/?34
-https://icmos.ru/news + Host: icmos.ru
+https://94.198.52.44/news + Host: icmos.ru
 https://94.198.52.44/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + Host: icmos.ru
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
 https://mos-gorsud.ru/
