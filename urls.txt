@@ -7,10 +7,9 @@ https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0
 https://mtuf.ru/ + x-forwarded-for: 188.225.17.85
 https://mostpp.ru/news/
 http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query + x-forwarded-for: 213.189.197.211
-https://msk.arbitr.ru/about/ourJudges/novikov
+https://msk.arbitr.ru/search/node?keys=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 http://ombudsman.mos.ru/ru/news_msk/index.html
 https://www.advokatymoscow.ru/search/?q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
-https://msk.arbitr.ru/sitemap
 https://mostpp.ru/search/?how=d&s=%C8%F1%EA%E0%F2%FC&q=%EF%F3%F2%E8%ED+%F5%F3%E9%EB%EE&where=&from=&to= + x-forwarded-for: 194.58.119.137
 https://mmc.mos.ru/client-office/security/auth-rvg/login?0&service=http://mmc.mos.ru/client-office/auth/signin-cas
 https://mc.mos.ru/uk/worker/mmc/residence-permit
