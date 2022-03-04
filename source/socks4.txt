@@ -3,3 +3,4 @@ https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/socks4.txt
 https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt
 https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt
 https://raw.githubusercontent.com/UserR3X/proxy-list/main/socks4.txt
+https://raw.githubusercontent.com/imsamurai/ban/master/ruproxy4.txt
