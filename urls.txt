@@ -1,18 +1,18 @@
 http://www.mgnp.info/
-https://goonbus.ru/ + X-forwarded-for: 95.31.18.119
+https://goonbus.ru/ + x-forwarded-for: 95.31.18.119
 https://94.198.52.44/ + Host: icmos.ru
 https://94.198.52.44/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + Host: icmos.ru
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
 https://mos-gorsud.ru/
 https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0%BF%D1%83%D1%82%D0%B8%D0%BD
 https://mtuf.ru/
-https://mostpp.ru/news/ + X-forwarded-for: 194.58.119.137
-http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query + X-forwarded-for: 213.189.197.211
+https://mostpp.ru/news/ + x-forwarded-for: 194.58.119.137
+http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query + x-forwarded-for: 213.189.197.211
 https://msk.arbitr.ru/about/ourJudges/novikov
 http://ombudsman.mos.ru/ru/news_msk/index.html
 https://www.advokatymoscow.ru/search/?q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://msk.arbitr.ru/sitemap
-https://mostpp.ru/search/?how=d&s=%C8%F1%EA%E0%F2%FC&q=%EF%F3%F2%E8%ED+%F5%F3%E9%EB%EE&where=&from=&to= + X-forwarded-for: 194.58.119.137
+https://mostpp.ru/search/?how=d&s=%C8%F1%EA%E0%F2%FC&q=%EF%F3%F2%E8%ED+%F5%F3%E9%EB%EE&where=&from=&to= + x-forwarded-for: 194.58.119.137
 https://mmc.mos.ru/client-office/security/auth-rvg/login?0&service=http://mmc.mos.ru/client-office/auth/signin-cas
 https://mc.mos.ru/uk/worker/mmc/residence-permit
 https://mc.mos.ru/ru/superior/mmc/recruitment-of-foreign-citizens
@@ -25,14 +25,14 @@ https://data.mos.ru
 https://data.gov.ru/information-usage
 https://data.gov.ru/user/login
 https://mmc.mos.ru/client-office/
-http://adm-moskovsky.ru/search/?search_query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + X-forwarded-for: 195.208.1.107
+http://adm-moskovsky.ru/search/?search_query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + x-forwarded-for: 195.208.1.107
 https://priemnaya.duma.gov.ru/ru/stat_page/all/
 https://er-gosduma.ru/search/?tags=&q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&how=d
-http://xn--b1acf6adcoo.xn--p1ai/?s=%D0%B0 + X-forwarded-for: 31.31.196.23
+http://xn--b1acf6adcoo.xn--p1ai/?s=%D0%B0 + x-forwarded-for: 31.31.196.23
 http://xn--90abj6adui5e.xn--p1ai
 https://oaovoentorg.ru
 http://voentorg-russia.ru/
 https://voen36.ru/
 https://voenteka.ru/
 https://gironemo.ru/suxpaek-armiya-rossii-ao-voentorg-variant-2/
-https://xn--80aaenqccitej3b1b.xn--p1ai/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + X-forwarded-for: 185.178.208.143
+https://xn--80aaenqccitej3b1b.xn--p1ai/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + x-forwarded-for: 185.178.208.143
