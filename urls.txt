@@ -21,4 +21,5 @@ https://www.nalog.gov.ru/rn77/apply_fts/
 https://oibmmc.mos.ru/auth-mmc-lk/login?2&service=http://lkmmc.mos.ru/mmcinfosupplier/oib-auth/check
 https://data.mos.ru
 https://data.gov.ru/information-usage
+https://data.gov.ru/user/login
 https://mmc.mos.ru/client-office/
