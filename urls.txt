@@ -5,7 +5,7 @@ https://94.198.52.44/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
 https://mos-gorsud.ru/
 https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0%BF%D1%83%D1%82%D0%B8%D0%BD
-https://mtuf.ru/
+https://mtuf.ru/ + x-forwarded-for: 188.225.17.85
 https://mostpp.ru/news/ + x-forwarded-for: 194.58.119.137
 http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query + x-forwarded-for: 213.189.197.211
 https://msk.arbitr.ru/about/ourJudges/novikov
