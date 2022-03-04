@@ -26,3 +26,4 @@ https://mmc.mos.ru/client-office/
 http://adm-moskovsky.ru/search/?search_query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://priemnaya.duma.gov.ru/ru/stat_page/all/
 https://er-gosduma.ru/search/?tags=&q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&how=d
+http://xn--b1acf6adcoo.xn--p1ai/?s=%D0%B0
