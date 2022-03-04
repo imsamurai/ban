@@ -1,12 +1,11 @@
-http://www.mgnp.info/
-https://goonbus.ru/ + X-Requested-With: XMLHttpRequest + Referer: http://goonbus.ru/?34
+https://goonbus.ru/ + X-Requested-With: XMLHttpRequest + Accept: */* + Accept-Language: en-US,en;q=0.5 + DNT: 1 + Connection: keep-alive + Referer: https://goonbus.ru/ + Sec-Fetch-Dest: script + Sec-Fetch-Mode: no-cors + Sec-Fetch-Site: same-origin + Pragma: no-cache + Cache-Control: no-cache + TE: trailers
 https://94.198.52.44/news + Host: icmos.ru
 https://94.198.52.44/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + Host: icmos.ru
 https://help.mos-gorsud.ru/api/search/scenario?search=%D0%B4%D0%B5%D0%BB%D0%BE&limit=1000000000
 https://mos-gorsud.ru/
 https://mos-sud.ru/search?formType=shortForm&uid=&caseNumber=123&participant=%D0%BF%D1%83%D1%82%D0%B8%D0%BD
 https://mtuf.ru/ + x-forwarded-for: 188.225.17.85
-https://mostpp.ru/news/ + x-forwarded-for: 194.58.119.137
+https://mostpp.ru/news/
 http://www.mosmakk.ru/?s=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&submit=Submit+Query + x-forwarded-for: 213.189.197.211
 https://msk.arbitr.ru/about/ourJudges/novikov
 http://ombudsman.mos.ru/ru/news_msk/index.html
@@ -16,18 +15,13 @@ https://mostpp.ru/search/?how=d&s=%C8%F1%EA%E0%F2%FC&q=%EF%F3%F2%E8%ED+%F5%F3%E9
 https://mmc.mos.ru/client-office/security/auth-rvg/login?0&service=http://mmc.mos.ru/client-office/auth/signin-cas
 https://mc.mos.ru/uk/worker/mmc/residence-permit
 https://mc.mos.ru/ru/superior/mmc/recruitment-of-foreign-citizens
-https://77.rospotrebnadzor.ru/index.php/component/search/?searchword=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&searchphrase=all&Itemid=136
 https://donor.mos.ru/poisk-po-sajtu?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD%20%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://www.nalog.gov.ru/rn77/search/?type=all&text=%D0%BF%D1%83%D1%82%D0%B8%D0%BD%20%D1%85%D1%83%D0%B9%D0%BB%D0%BE
 https://www.nalog.gov.ru/rn77/apply_fts/
 https://oibmmc.mos.ru/auth-mmc-lk/login?2&service=http://lkmmc.mos.ru/mmcinfosupplier/oib-auth/check
-https://data.mos.ru
-https://data.gov.ru/information-usage
-https://data.gov.ru/user/login
 https://mmc.mos.ru/client-office/
 http://adm-moskovsky.ru/search/?search_query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + x-forwarded-for: 195.208.1.107
 https://priemnaya.duma.gov.ru/ru/stat_page/all/
-https://er-gosduma.ru/search/?tags=&q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&how=d
 http://xn--b1acf6adcoo.xn--p1ai/?s=%D0%B0 + x-forwarded-for: 31.31.196.23
 http://xn--90abj6adui5e.xn--p1ai
 https://oaovoentorg.ru
