@@ -5,3 +5,10 @@ https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/prox
 https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt
 https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt
 https://raw.githubusercontent.com/UserR3X/proxy-list/main/http.txt
+https://raw.githubusercontent.com/xfreed/Proxy-List/main/Proxy_Http.txt
+https://raw.githubusercontent.com/Volodichev/proxy-list/main/http.txt
+https://raw.githubusercontent.com/almroot/proxylist/master/list.txt
+https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
+https://raw.githubusercontent.com/SkyWtkh/HTTP-Proxy-List/main/free_http_proxy_list.txt
+https://raw.githubusercontent.com/Cpartak/proxy-list/main/online-proxies/txt/proxies-http.txt
