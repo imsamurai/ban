@@ -1,3 +1,7 @@
+https://tass.ru/
+https://xn--j1aarei.xn--p1ai/
+http://xn--80aalqabyj2ajl4c8g.xn--80aac8aaitnjglc1k9a.xn--p1ai/
+http://xn--80aalqabyj2ajl4c8g.xn----7sbbd6bakwokhmc1lob.xn--p1ai/
 https://goonbus.ru/ + X-Requested-With: XMLHttpRequest + Accept: */* + Accept-Language: en-US,en;q=0.5 + DNT: 1 + Connection: keep-alive + Referer: https://goonbus.ru/ + Sec-Fetch-Dest: script + Sec-Fetch-Mode: no-cors + Sec-Fetch-Site: same-origin + Pragma: no-cache + Cache-Control: no-cache + TE: trailers
 https://94.198.52.44/news + Host: icmos.ru
 https://94.198.52.44/search?query=%D0%BF%D1%83%D1%82%D0%B8%D0%BD+%D1%85%D1%83%D0%B9%D0%BB%D0%BE + Host: icmos.ru
