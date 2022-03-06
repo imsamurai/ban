@@ -3,25 +3,25 @@ version: "3.9"
 services:
   ivi_deputatos:
     image: imsamurai/ivi
-    replicas: 2
+    scale: 2
     restart: always
     command: "phones_deputatos"
   ivi:
     image: imsamurai/ivi
-    replicas: 2
+    scale: 2
     restart: always
     command: "phones"
   ivi_pikabu:
     image: imsamurai/ivi
-    replicas: 2
+    scale: 2
     restart: always
     command: "phones_pikabu"
   sms_bomber:
     image: geph/sms-bomber
-    replicas: 2
+    scale: 2
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
   callmeback:
     image: imsamurai/callmeback
-    replicas: 80
+    scale: 80
     restart: always
