@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  ivi_deputatos:
+    image: imsamurai/ivi
+    restart: always
+    command: "phones_deputatos"
+  ivi:
+    image: imsamurai/ivi
+    restart: always
+    command: "phones"
+  ivi_pikabu:
+    image: imsamurai/ivi
+    restart: always
+    command: "phones_pikabu"
+  sms_bomber:
+    image: geph/sms-bomber
+    restart: always
+    command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
