@@ -13,7 +13,7 @@ services:
     command: "phones"
   ivi_pikabu:
     image: imsamurai/ivi
-    replicas: 80
+    replicas: 40
     restart: always
     command: "phones_pikabu"
   sms_bomber:
