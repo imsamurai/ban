@@ -13,11 +13,15 @@ services:
     command: "phones"
   ivi_pikabu:
     image: imsamurai/ivi
-    replicas: 40
+    replicas: 2
     restart: always
     command: "phones_pikabu"
   sms_bomber:
     image: geph/sms-bomber
-    replicas: 20
+    replicas: 2
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
+  sms_bomber:
+    image: imsamurai/callmeback
+    replicas: 80
+    restart: always
