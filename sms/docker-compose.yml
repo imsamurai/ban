@@ -1,4 +1,4 @@
-version: "2.4"
+version: "3"
 
 services:
   ivi_deputatos:
@@ -21,7 +21,7 @@ services:
     replicas: 2
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
-  sms_bomber:
+  callmeback:
     image: imsamurai/callmeback
     replicas: 80
     restart: always
