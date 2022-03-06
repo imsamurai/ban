@@ -22,7 +22,7 @@ do
 	PHONE="$line"
 	NAME=$(sort -r names.txt | head -n 1)
 
-  pkill -sighup tor 2 > /dev/null
+  pkill -sighup tor 2>/dev/null
 
 	if [ "$1" == "test" ]; then
 		echo "$NAME - $PHONE"

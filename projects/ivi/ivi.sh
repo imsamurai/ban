@@ -64,4 +64,4 @@ curl -s --retry 3 'https://api2.ivi.ru/mobileapi/user/register/phone/v6/' \
 
 echo ""
 
-pkill -sighup tor 2 > /dev/null
+pkill -sighup tor 2>/dev/null
