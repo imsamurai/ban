@@ -20,5 +20,5 @@ services:
   jerdesh:
     image: imsamurai/jerdesh
     deploy:
-      replicas: 80
+      replicas: 0
     restart: always
