@@ -4,7 +4,7 @@ services:
   ivi_pikabu:
     image: imsamurai/ivi
     deploy:
-      replicas: 60
+      replicas: 30
     restart: always
   sms_bomber:
     image: imsamurai/sms-bomber
