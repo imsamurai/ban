@@ -1,6 +1,6 @@
-FROM node:16-alpine
+FROM alpine
 
-WORKDIR /node/
+WORKDIR /service/
 
 ADD . .
 
@@ -11,9 +11,9 @@ RUN apk add --no-cache tor bash proxychains-ng curl findutils jq \
     #&& sed -i 's/tcp_read_time_out 15000/tcp_read_time_out 1000/' /etc/proxychains/proxychains.conf \
     #&& sed -i 's/tcp_connect_time_out 8000/tcp_connect_time_out 500/' /etc/proxychains/proxychains.conf \
     && sed -i 's/#dynamic_chain/dynamic_chain/' /etc/proxychains/proxychains.conf \
-    && chmod +x /node/docker-entrypoint.sh  \
-    && chmod +x /node/bitrix.sh \
+    && chmod +x /service/docker-entrypoint.sh  \
+    && chmod +x /service/bitrix.sh \
     && chown -R root:root /var/lib/tor
 
 
-ENTRYPOINT ["/node/docker-entrypoint.sh"]
+ENTRYPOINT ["/service/docker-entrypoint.sh"]
