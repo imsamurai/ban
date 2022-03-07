@@ -20,7 +20,7 @@ do
 	done < $FILE
 
 	PHONE="$line"
-	NAME=$(sort -r names.txt | head -n 1)
+	NAME=$(cat names.txt | shuf | head -n 1)
 
   pkill -sighup tor 2>/dev/null
 
