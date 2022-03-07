@@ -10,3 +10,7 @@ https://raw.githubusercontent.com/xfreed/Proxy-List/main/Proxy_Socks5.txt
 https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
 https://raw.githubusercontent.com/Inplex-sys/proxy-list/main/socks5.txt
 https://raw.githubusercontent.com/Cpartak/proxy-list/main/online-proxies/txt/proxies-socks5.txt
+https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5
+https://www.proxy-list.download/api/v1/get?type=socks5
+https://www.proxyscan.io/download?type=socks5
+https://api.openproxylist.xyz/socks5.txt
