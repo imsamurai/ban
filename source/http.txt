@@ -12,3 +12,8 @@ https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/d
 https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
 https://raw.githubusercontent.com/SkyWtkh/HTTP-Proxy-List/main/free_http_proxy_list.txt
 https://raw.githubusercontent.com/Cpartak/proxy-list/main/online-proxies/txt/proxies-http.txt
+https://api.proxyscrape.com/?request=displayproxies&proxytype=http
+https://www.proxy-list.download/api/v1/get?type=http
+https://www.proxyscan.io/download?type=http
+https://api.openproxylist.xyz/http.txt
+https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
