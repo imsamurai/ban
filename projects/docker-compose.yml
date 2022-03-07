@@ -4,7 +4,7 @@ services:
   ivi_pikabu:
     image: imsamurai/ivi
     deploy:
-      replicas: 8
+      replicas: 2
     restart: always
   sms_bomber:
     image: imsamurai/sms-bomber
@@ -13,7 +13,7 @@ services:
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
   callmeback:
-    image: imsamurai/callmeback
+    image: imsamurai/callmeback_noproxy
     deploy:
       replicas: 20
     restart: always
