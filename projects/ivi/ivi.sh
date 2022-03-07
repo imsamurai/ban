@@ -7,14 +7,16 @@ PHONE1=$(echo "$PHONE" | sed -E 's/^\+([0-9]{1})([0-9]{3})([0-9]{3})([0-9]{2})([
 PHONE2=$(echo "$PHONE" | sed -E 's/^\+([0-9]{1})([0-9]{3})([0-9]{3})([0-9]{2})([0-9]{2})$/\1+\2+\3-\4-\5/')
 echo "$PHONE"
 
-DATA=$(curl --retry 3 -is "https://www.ivi.tv/")
+DATA=$(curl  --retry 5 -is "https://www.ivi.tv/")
+
 SESSION_DATA=$(echo "$DATA" | grep 'session_data=' | sed -E 's/.*session_data=([^;]+).*/\1/')
 
 SESSIVI=$(echo "$DATA" | grep 'sessivi=' | sed -E 's/.*sessivi=([^;]+).*/\1/')
+
 #echo "$SESSION_DATA"
 #echo "$SESSIVI"
 
-KEY=$(curl --retry 3 -s 'https://api2.ivi.ru/mobileapi/timestamp/v5/?app_version=870&session='"$SESSIVI"'&session_data='"$SESSION_DATA" \
+KEY=$(curl  --retry 5 -s 'https://api2.ivi.ru/mobileapi/timestamp/v5/?app_version=870&session='"$SESSIVI"'&session_data='"$SESSION_DATA" \
   -H 'authority: api2.ivi.ru' \
   -H 'pragma: no-cache' \
   -H 'cache-control: no-cache' \
@@ -42,7 +44,7 @@ SIG=$(node ivisig.js "$URL_TO_SIGN")
 
 #echo "$SIG"
 
-curl -s --retry 3 'https://api2.ivi.ru/mobileapi/user/register/phone/v6/' \
+curl -s  --retry 5 'https://api2.ivi.ru/mobileapi/user/register/phone/v6/' \
   -H 'authority: api2.ivi.ru' \
   -H 'pragma: no-cache' \
   -H 'cache-control: no-cache' \
