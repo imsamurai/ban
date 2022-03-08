@@ -1,10 +1,10 @@
 version: "3.9"
 
 services:
-  ivi_pikabu:
+  ivi:
     image: imsamurai/ivi
     deploy:
-      replicas: 2
+      replicas: 0
     restart: always
   sms_bomber:
     image: imsamurai/sms-bomber
@@ -13,9 +13,9 @@ services:
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
   callmeback:
-    image: imsamurai/callmeback_noproxy
+    image: imsamurai/callmeback
     deploy:
-      replicas: 20
+      replicas: 0
     restart: always
   jerdesh:
     image: imsamurai/jerdesh
