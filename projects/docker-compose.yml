@@ -22,3 +22,12 @@ services:
     deploy:
       replicas: 0
     restart: always
+  letu:
+    image: imsamurai/letu
+    deploy:
+      replicas: 4
+    restart: always
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
