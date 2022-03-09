@@ -44,4 +44,7 @@ curl -s 'https://www.letu.ru/s/api/user/account/v1/confirmations/phone?pushSite=
   --compressed
 
 rm -rf "$COOKIEFILE"
+echo ""
+
 pkill -sighup tor 2>/dev/null
+
