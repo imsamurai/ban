@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=./ph.txt
+FILE=./ph_priority.txt
 
 lc=$(wc -l "$FILE" | grep -Eo '[0-9]+')
 
