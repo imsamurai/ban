@@ -9,13 +9,13 @@ services:
   sms_bomber:
     image: imsamurai/sms-bomber
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
   callmeback:
     image: imsamurai/callmeback
     deploy:
-      replicas: 2
+      replicas: 0
     restart: always
   jerdesh:
     image: imsamurai/jerdesh
