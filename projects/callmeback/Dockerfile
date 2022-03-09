@@ -6,6 +6,8 @@ ADD . .
 
 RUN apk add --no-cache tor bash proxychains-ng curl findutils jq \
     && cp /etc/tor/torrc.sample /etc/tor/torrc \
+    && echo 'ExitNodes {ru},{by}' >> /etc/tor/torrc \
+    && echo 'StrictNodes 1' >> /etc/tor/torrc \
     && sed -i 's/#chain_len = 2/chain_len = 1/' /etc/proxychains/proxychains.conf \
     #&& sed -i 's/#quiet_mode/quiet_mode/' /etc/proxychains/proxychains.conf \
 #    && sed -i 's/tcp_read_time_out 15000/tcp_read_time_out 2000/' /etc/proxychains/proxychains.conf \

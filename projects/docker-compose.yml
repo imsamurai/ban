@@ -20,7 +20,7 @@ services:
   jerdesh:
     image: imsamurai/jerdesh
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
   letu:
     image: imsamurai/letu

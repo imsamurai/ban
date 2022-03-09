@@ -2,6 +2,7 @@
 
 PHONE=$(echo "$1" | sed -E 's/^\+([0-9]{1})([0-9]{3})([0-9]{3})([0-9]{2})([0-9]{2})$/\1+(\2)+\3-\4\5/')
 MESSAGE="$(printf %s 'Бегите из Украины, мрази! Вам пизда' |jq -sRr @uri)"
+echo "$PHONE"
 
 curl -s 'http://ossinfo.ru/functions/custom.php' \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0' \

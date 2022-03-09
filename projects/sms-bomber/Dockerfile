@@ -1,10 +1,10 @@
-FROM python:3.9-alpine3.14
+FROM alpine
 
 WORKDIR /app/
 
 ADD . .
 
-RUN apk add --no-cache tor bash proxychains-ng \
+RUN apk add --no-cache tor bash proxychains-ng curl findutils jq \
     && cp /etc/tor/torrc.sample /etc/tor/torrc \
     && sed -i 's/^#ControlPort.*/ControlPort 9051/g' /etc/tor/torrc \
     && sed -i 's/#chain_len = 2/chain_len = 1/' /etc/proxychains/proxychains.conf \
@@ -15,7 +15,7 @@ RUN apk add --no-cache tor bash proxychains-ng \
         && sed -i 's/#random_chain/random_chain/' /etc/proxychains/proxychains.conf \
     && chmod +x /app/docker-entrypoint.sh  \
     && chown -R root:root /var/lib/tor \
-    && pip3 install -r requirements.txt \
+#    && pip3 install -r requirements.txt \
     && chmod +x run.sh
 
 ENTRYPOINT ["/app/docker-entrypoint.sh"]

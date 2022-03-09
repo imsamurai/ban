@@ -5,8 +5,8 @@ FILE=./ph_priority.txt
 lc=$(wc -l "$FILE" | grep -Eo '[0-9]+')
 
 
-while true
-do
+#while true
+#do
 	# get a random number between 1 and $lc
 	rnd=$RANDOM
 	let "rnd %= $lc"
@@ -22,9 +22,12 @@ do
 	PHONE="$line"
 	NAME=$(cat names.txt | shuf | head -n 1)
 
-  pkill -sighup tor 2>/dev/null
+
 
   echo "$NAME - $PHONE"
-	proxychains -q curl -siv -m 1 -XPOST --data "values={\"LEAD_NAME\":[\"$NAME\"],\"LEAD_PHONE\":[\"$PHONE\"]}&consents={\"AGREEMENT_2\":\"Y\"}&recaptcha=undefined&timeZoneOffset=-120&id=60&trace={}&sec=gczezk" https://profav.bitrix24.ru/bitrix/services/main/ajax.php?action=crm.site.form.fill | jq -c '.result' 2> /dev/null || echo "error"
-done
+	curl -s -XPOST --data "values={\"LEAD_NAME\":[\"$NAME\"],\"LEAD_PHONE\":[\"$PHONE\"]}&consents={\"AGREEMENT_2\":\"Y\"}&recaptcha=undefined&timeZoneOffset=-120&id=60&trace={}&sec=gczezk" https://profav.bitrix24.ru/bitrix/services/main/ajax.php?action=crm.site.form.fill | jq -c '.result' 2> /dev/null || echo "error"
+
+  pkill -sighup tor 2>/dev/null
+  echo ""
+#done
 
