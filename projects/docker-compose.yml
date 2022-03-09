@@ -4,7 +4,7 @@ services:
   ivi:
     image: imsamurai/ivi
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
   sms_bomber:
     image: imsamurai/sms-bomber
@@ -15,7 +15,7 @@ services:
   callmeback:
     image: imsamurai/callmeback
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
   jerdesh:
     image: imsamurai/jerdesh

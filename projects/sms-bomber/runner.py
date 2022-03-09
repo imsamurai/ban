@@ -49,7 +49,7 @@ def main():
 		socket.socket = socks.socksocket
 
 		while True:
-			with open('ph.txt', 'r') as file:
+			with open('ph_priority.txt', 'r') as file:
 				lines = file.readlines()
 				random_line = random.choice(lines) if lines else None
 				num = re.sub('\D', '', random_line)
