@@ -13,7 +13,7 @@ services:
   sms_bomber:
     image: imsamurai/sms-bomber
     deploy:
-      replicas: 2
+      replicas: 4
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
     ulimits:
