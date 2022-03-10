@@ -10,11 +10,11 @@ Gusli
 hoba
 VPROK.RU
 24h.tv
-Yandex.Eda
+-Yandex.Eda
 2po2.ru
 findepo.ru
 DENGEN.RU
-celfin.ru
++celfin.ru
 -passport.pochta.ru
 SMOTRIM.RU
 my.celfin.ru
