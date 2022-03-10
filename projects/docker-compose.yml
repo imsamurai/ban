@@ -6,13 +6,21 @@ services:
     deploy:
       replicas: 2
     restart: always
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   sms_bomber:
     image: imsamurai/sms-bomber
     deploy:
       replicas: 2
     restart: always
     command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
-  callmeback:
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  callmeback: #died
     image: imsamurai/callmeback
     deploy:
       replicas: 0
@@ -22,6 +30,10 @@ services:
     deploy:
       replicas: 2
     restart: always
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   letu:
     image: imsamurai/letu
     deploy:

