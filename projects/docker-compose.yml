@@ -43,3 +43,12 @@ services:
       nofile:
         soft: 140000
         hard: 140000
+  celfin:
+    image: imsamurai/celfin
+    deploy:
+      replicas: 4
+    restart: always
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
