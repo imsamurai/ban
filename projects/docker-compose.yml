@@ -34,10 +34,10 @@ services:
       nofile:
         soft: 140000
         hard: 140000
-  letu:
+  letu: #died
     image: imsamurai/letu
     deploy:
-      replicas: 4
+      replicas: 0
     restart: always
     ulimits:
       nofile:
