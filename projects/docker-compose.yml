@@ -46,3 +46,12 @@ services:
       nofile:
         soft: 140000
         hard: 140000
+  sushilandia:
+    image: imsamurai/sushilandia
+    deploy:
+      replicas: 1
+    restart: always
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
