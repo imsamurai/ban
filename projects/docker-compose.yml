@@ -46,7 +46,7 @@ services:
   celfin:
     image: imsamurai/celfin
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
     ulimits:
       nofile:
