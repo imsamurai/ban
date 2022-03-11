@@ -1,8 +1,8 @@
 version: "3.9"
 
 services:
-  ivi: #almost useless
-    image: imsamurai/ivi
+  findclone:
+    image: imsamurai/findclone
     deploy:
       replicas: 1
     restart: always
@@ -10,43 +10,37 @@ services:
       nofile:
         soft: 140000
         hard: 140000
-  sms_bomber: #almost useless
-    image: imsamurai/sms-bomber
+  kruassanfamily:
+    image: imsamurai/kruassanfamily
     deploy:
       replicas: 1
     restart: always
-    command: "'Ostanovite VOINU s UKRAINOI! Ne verte smi! Vyhodite na miting!'"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  callmeback: #died
-    image: imsamurai/callmeback
+  chibbis:
+    image: imsamurai/chibbis
     deploy:
-      replicas: 0
-    restart: always
-  jerdesh: #almost useless
-    image: imsamurai/jerdesh
-    deploy:
-      replicas: 0
+      replicas: 1
     restart: always
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  letu: #died
-    image: imsamurai/letu
+  nskavtovokzal:
+    image: imsamurai/nskavtovokzal
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  celfin: #died
-    image: imsamurai/celfin
+  avtoinline:
+    image: imsamurai/avtoinline
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
     ulimits:
       nofile:
