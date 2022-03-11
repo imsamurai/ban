@@ -9,7 +9,7 @@ BIRTHDAY="$(echo "$INFO" | cut -f4)"
 PASSPORT="$(echo "$INFO" | cut -f5)"
 echo "$PHONE $INFO"
 
-RESULT=$(curl -s 'https://my.celfin.ru/assets/template/ajax/getCodeOPP.php' \
+RESULT=$(curl -s --retry 3 'https://my.celfin.ru/assets/template/ajax/getCodeOPP.php' \
   -H 'authority: my.celfin.ru' \
   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
   -H 'dnt: 1' \
