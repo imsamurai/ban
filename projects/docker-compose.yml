@@ -1,57 +1,63 @@
 version: "3.9"
 
 services:
-  findclone:
-    image: imsamurai/findclone
+  yabloko161_priority:
+    image: imsamurai/caller
     deploy:
       replicas: 1
     restart: always
+    command: "yabloko161 ph_priority"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  kruassanfamily:
-    image: imsamurai/kruassanfamily
-    deploy:
-      replicas: 0
-    restart: always
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
-  chibbis:
-    image: imsamurai/chibbis
+  yabloko161_all:
+    image: imsamurai/caller
     deploy:
       replicas: 1
     restart: always
+    command: "yabloko161 ph"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  nskavtovokzal:
-    image: imsamurai/nskavtovokzal
+  polypay_all:
+    image: imsamurai/caller
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
+    command: "polypay ph"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  avtoinline:
-    image: imsamurai/avtoinline
+  egks_all:
+    image: imsamurai/caller
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
+    command: "egks ph"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  sushilandia:
-    image: imsamurai/sushilandia
+  superbankrot_all:
+    image: imsamurai/superbankrot
     deploy:
-      replicas: 0
+      replicas: 2
     restart: always
+    command: "ph"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
+#  superbankrot_2:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 2
+#    restart: always
+#    command: "superbankrot ph"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
