@@ -5,9 +5,10 @@ echo "+$PHONE"
 
 COOKIEFILE="$RANDOM"cookie.txt
 
-TOKEN=$(curl -s --retry 3 'https://kstr.chibbis.ru/' -c "$COOKIEFILE" -b "$COOKIEFILE" | grep 'requestverificationcode' | grep '__RequestVerificationToken' | sed -E 's/.*type="hidden" value="([^"]+)".*/\1/')
+TOKEN=$(curl -sk --retry 3 'https://kstr.chibbis.ru/' -c "$COOKIEFILE" -b "$COOKIEFILE" | grep 'requestverificationcode' | grep '__RequestVerificationToken' | sed -E 's/.*type="hidden" value="([^"]+)".*/\1/')
+echo "$TOKEN"
 
-RESULT=$(curl -s --retry 3 'https://kstr.chibbis.ru/account/requestverificationcode' \
+RESULT=$(curl -sk --retry 3 'https://kstr.chibbis.ru/account/requestverificationcode' \
   -c "$COOKIEFILE" -b "$COOKIEFILE" \
   -H 'authority: kstr.chibbis.ru' \
   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \

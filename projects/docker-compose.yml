@@ -13,7 +13,7 @@ services:
   kruassanfamily:
     image: imsamurai/kruassanfamily
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     ulimits:
       nofile:
@@ -31,7 +31,7 @@ services:
   nskavtovokzal:
     image: imsamurai/nskavtovokzal
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     ulimits:
       nofile:
@@ -40,7 +40,7 @@ services:
   avtoinline:
     image: imsamurai/avtoinline
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     ulimits:
       nofile:
@@ -49,7 +49,7 @@ services:
   sushilandia:
     image: imsamurai/sushilandia
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     ulimits:
       nofile:
