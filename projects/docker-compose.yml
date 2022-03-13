@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "webmoika ph_priority 50"
+    command: "webmoika ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
@@ -16,7 +16,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "coworkstation ph_priority 50"
+    command: "coworkstation ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
@@ -26,7 +26,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "netzaliva ph_priority 50"
+    command: "netzaliva ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
@@ -36,38 +36,38 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "yabloko161 ph_priority 50"
+    command: "yabloko161 ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  polypay_all:
-    image: imsamurai/caller
-    deploy:
-      replicas: 1
-    restart: always
-    command: "polypay ph 50"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
-  egks_all:
-    image: imsamurai/caller
-    deploy:
-      replicas: 1
-    restart: always
-    command: "egks ph 50"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
-  superbankrot_all:
-    image: imsamurai/superbankrot
-    deploy:
-      replicas: 1
-    restart: always
-    command: "ph 50"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
+#  polypay_all:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 1
+#    restart: always
+#    command: "polypay ph 50"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
+#  egks_all:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 1
+#    restart: always
+#    command: "egks ph 50"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
+#  superbankrot_all:
+#    image: imsamurai/superbankrot
+#    deploy:
+#      replicas: 1
+#    restart: always
+#    command: "ph 50"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
