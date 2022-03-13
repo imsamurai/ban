@@ -1,6 +1,26 @@
 version: "3.9"
 
 services:
+  netzaliva_priority:
+    image: imsamurai/netzaliva
+    deploy:
+      replicas: 1
+    restart: always
+    command: "netzaliva ph_priority 50"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  netzaliva_all:
+    image: imsamurai/netzaliva
+    deploy:
+      replicas: 1
+    restart: always
+    command: "netzaliva ph 100"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   yabloko161_priority:
     image: imsamurai/caller
     deploy:
@@ -26,7 +46,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "polypay ph"
+    command: "polypay ph 100"
     ulimits:
       nofile:
         soft: 140000
@@ -36,7 +56,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "egks ph"
+    command: "egks ph 100"
     ulimits:
       nofile:
         soft: 140000
@@ -44,20 +64,10 @@ services:
   superbankrot_all:
     image: imsamurai/superbankrot
     deploy:
-      replicas: 2
+      replicas: 1
     restart: always
-    command: "ph"
+    command: "ph 100"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-#  superbankrot_2:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 2
-#    restart: always
-#    command: "superbankrot ph"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
