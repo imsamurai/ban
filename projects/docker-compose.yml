@@ -11,32 +11,12 @@ services:
       nofile:
         soft: 140000
         hard: 140000
-  netzaliva_all:
-    image: imsamurai/netzaliva
-    deploy:
-      replicas: 1
-    restart: always
-    command: "netzaliva ph 50"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
   yabloko161_priority:
     image: imsamurai/caller
     deploy:
       replicas: 1
     restart: always
     command: "yabloko161 ph_priority 50"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
-  yabloko161_all:
-    image: imsamurai/caller
-    deploy:
-      replicas: 1
-    restart: always
-    command: "yabloko161 ph 50"
     ulimits:
       nofile:
         soft: 140000
