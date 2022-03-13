@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "yabloko161 ph_priority"
+    command: "yabloko161 ph_priority 50"
     ulimits:
       nofile:
         soft: 140000
@@ -16,7 +16,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "yabloko161 ph"
+    command: "yabloko161 ph 100"
     ulimits:
       nofile:
         soft: 140000
