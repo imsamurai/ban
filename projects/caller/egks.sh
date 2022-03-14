@@ -4,7 +4,7 @@ PHONE="$(echo "$1" | sed 's/+//')"
 
 echo "+$PHONE"
 
-EMAIL="stop_war_against_ukraine$RANDOM%40mail.ru"
+EMAIL="stop_war_vs_ukraine$RANDOM%40mail.ru"
 RESULT=$(curl -ks 'https://egks.ru/reg' \
            -H 'Connection: keep-alive' \
            -H 'Cache-Control: max-age=0' \
