@@ -1,10 +1,30 @@
 version: "3.9"
 
 services:
-  webmoika_priority:
+  autotown_priority:
     image: imsamurai/caller
     deploy:
       replicas: 1
+    restart: always
+    command: "autotown ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  zonatelecom_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "zonatelekom ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  webmoika_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 0
     restart: always
     command: "webmoika ph_voenkomats"
     ulimits:
@@ -14,7 +34,7 @@ services:
   coworkstation_priority:
     image: imsamurai/caller
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     command: "coworkstation ph_voenkomats"
     ulimits:
@@ -24,7 +44,7 @@ services:
   netzaliva_priority:
     image: imsamurai/caller
     deploy:
-      replicas: 1
+      replicas: 0
     restart: always
     command: "netzaliva ph_voenkomats"
     ulimits:
@@ -37,6 +57,16 @@ services:
       replicas: 1
     restart: always
     command: "yabloko161 ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  polypay_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "polypay ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
