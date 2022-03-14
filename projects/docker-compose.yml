@@ -1,6 +1,26 @@
 version: "3.9"
 
 services:
+  kruassanfamily_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "kruassanfamily ph_priority"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  chibbis_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "chibbis ph_priority"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   godekan_priority:
     image: imsamurai/caller
     deploy:

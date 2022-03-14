@@ -30,6 +30,9 @@ rm -rf "$COOKIEFILE"
 echo "$RESULT"
 
 if [ "$(echo "$RESULT" | grep -c '"Result":"ok"')" = "0" ]; then
-
+  echo "$RESULT"
+  echo "false"
   pkill -sighup tor 2>/dev/null
+else
+  echo "true"
 fi
