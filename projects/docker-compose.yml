@@ -54,7 +54,7 @@ services:
   webmoika_priority:
     image: imsamurai/caller
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
     command: "webmoika ph_voenkomats"
     ulimits:
@@ -64,23 +64,23 @@ services:
   coworkstation_priority:
     image: imsamurai/caller
     deploy:
-      replicas: 0
+      replicas: 1
     restart: always
     command: "coworkstation ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  netzaliva_priority:
-    image: imsamurai/caller
-    deploy:
-      replicas: 0
-    restart: always
-    command: "netzaliva ph_voenkomats"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
+#  netzaliva_priority:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 0
+#    restart: always
+#    command: "netzaliva ph_voenkomats"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
   yabloko161_priority:
     image: imsamurai/caller
     deploy:
@@ -97,6 +97,16 @@ services:
       replicas: 1
     restart: always
     command: "polypay ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  egks_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "egks ph_voenkomats"
     ulimits:
       nofile:
         soft: 140000
