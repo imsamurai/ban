@@ -1,12 +1,22 @@
 version: "3.9"
 
 services:
+  godekan_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "godekan ph_priority 10 direct"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   autotown_priority:
     image: imsamurai/caller
     deploy:
       replicas: 1
     restart: always
-    command: "autotown ph_voenkomats"
+    command: "autotown ph_priority 10 direct"
     ulimits:
       nofile:
         soft: 140000
