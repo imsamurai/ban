@@ -51,6 +51,16 @@ services:
       nofile:
         soft: 140000
         hard: 140000
+  voicepassword_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "voicepassword ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   webmoika_priority:
     image: imsamurai/caller
     deploy:
