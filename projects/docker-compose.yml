@@ -4,9 +4,9 @@ services:
   apteka:
     image: imsamurai/caller
     deploy:
-      replicas: 8
+      replicas: 4
     restart: always
-    command: "apteka ph 100"
+    command: "apteka ph 200"
     ulimits:
       nofile:
         soft: 140000
