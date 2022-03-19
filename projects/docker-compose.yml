@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 8
     restart: always
-    command: "apteka ph 300"
+    command: "apteka ph 100"
     ulimits:
       nofile:
         soft: 140000
