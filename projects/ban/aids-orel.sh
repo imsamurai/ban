@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESULT="$(curl -ski --retry 3 'http://aids-orel.ru/pages/zadayte-vash-vopros' \
+RESULT="$(curl -ski 'http://aids-orel.ru/pages/zadayte-vash-vopros' \
   -H 'Connection: keep-alive' \
   -H 'Cache-Control: max-age=0' \
   -H 'Origin: http://aids-orel.ru' \

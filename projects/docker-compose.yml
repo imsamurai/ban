@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 8
     restart: always
-    command: "aids-orel ph 100"
+    command: "apteka ph 100"
     ulimits:
       nofile:
         soft: 140000
