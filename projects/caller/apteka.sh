@@ -12,7 +12,7 @@ RESULT=$(curl -sk --retry 3 'https://api.apteka.ru/Auth/Auth_Code?cityId=5e57979
 -H 'sec-ch-ua-mobile: ?0' \
 -H 'Content-Type: application/json' \
 -H 'Accept: application/json, text/plain, */*' \
--H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+-H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.35' \
 -H 'sec-ch-ua-platform: "Windows"' \
 -H 'Origin: https://apteka.ru' \
 -H 'Sec-Fetch-Site: same-site' \

@@ -2,11 +2,11 @@ version: "3.9"
 
 services:
   apteka:
-    image: imsamurai/caller
+    image: imsamurai/ban
     deploy:
       replicas: 8
     restart: always
-    command: "apteka ph 100"
+    command: "aids-orel ph 100"
     ulimits:
       nofile:
         soft: 140000
