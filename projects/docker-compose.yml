@@ -1,10 +1,20 @@
 version: "3.9"
 
 services:
+  aids_orel:
+    image: imsamurai/ban
+    deploy:
+      replicas: 4
+    restart: always
+    command: "aids-orel ph 100"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
   apteka:
     image: imsamurai/ban
     deploy:
-      replicas: 8
+      replicas: 4
     restart: always
     command: "apteka ph 100"
     ulimits:
