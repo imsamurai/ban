@@ -1,150 +1,126 @@
 version: "3.9"
 
 services:
-  aids_orel:
-    image: imsamurai/ban
+  kruassanfamily_priority:
+    image: imsamurai/caller
     deploy:
-      replicas: 4
+      replicas: 1
     restart: always
-    command: "aids-orel ph 100"
+    command: "kruassanfamily ph_priority"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  apteka:
-    image: imsamurai/ban
+  chibbis_priority:
+    image: imsamurai/caller
     deploy:
-      replicas: 4
+      replicas: 1
     restart: always
-    command: "apteka ph 100"
+    command: "chibbis ph_priority"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-#  kruassanfamily_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "kruassanfamily ph_priority"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  chibbis_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "chibbis ph_priority"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  godekan_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "godekan ph_priority 10 direct"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  autotown_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "autotown ph_priority 10 direct"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  zonatelecom_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "zonatelekom ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  voicepassword_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "voicepassword ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  webmoika_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "webmoika ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  coworkstation_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "coworkstation ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-##  netzaliva_priority:
-##    image: imsamurai/caller
-##    deploy:
-##      replicas: 0
-##    restart: always
-##    command: "netzaliva ph_voenkomats"
-##    ulimits:
-##      nofile:
-##        soft: 140000
-##        hard: 140000
-#  yabloko161_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "yabloko161 ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  polypay_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "polypay ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-#  egks_priority:
-#    image: imsamurai/caller
-#    deploy:
-#      replicas: 1
-#    restart: always
-#    command: "egks ph_voenkomats"
-#    ulimits:
-#      nofile:
-#        soft: 140000
-#        hard: 140000
-
-
-
-
+  godekan_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "godekan ph_priority 10 direct"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  autotown_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "autotown ph_priority 10 direct"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  zonatelecom_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "zonatelekom ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  voicepassword_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "voicepassword ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  webmoika_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "webmoika ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  coworkstation_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "coworkstation ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  #  netzaliva_priority:
+  #    image: imsamurai/caller
+  #    deploy:
+  #      replicas: 0
+  #    restart: always
+  #    command: "netzaliva ph_voenkomats"
+  #    ulimits:
+  #      nofile:
+  #        soft: 140000
+  #        hard: 140000
+  yabloko161_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "yabloko161 ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  polypay_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "polypay ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
+  egks_priority:
+    image: imsamurai/caller
+    deploy:
+      replicas: 1
+    restart: always
+    command: "egks ph_voenkomats"
+    ulimits:
+      nofile:
+        soft: 140000
+        hard: 140000
 #  polypay_all:
 #    image: imsamurai/caller
 #    deploy:
