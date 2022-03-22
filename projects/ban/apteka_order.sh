@@ -1,0 +1,41 @@
+curl -s 'https://api.apteka.ru/Cart?cityId=5e60ee6e4313510001761cfe' \
+  -X 'PUT' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'X-ACTIVE-EXP: xiIfUJebR_OcLrbj56nRag:1' \
+  -H 'DNT: 1' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ODQwYzRhZC1lYzRiLTRiYTEtYmU4MC1iMDIwOGYxM2YyYmMiLCJqdGkiOiI2MjMzNjM0OGQyNjQ2YmUyZjAwNzhmNDkiLCJleHAiOjE2NjMzOTc1ODAsIm5iZiI6MTY0Nzg0NTU4MCwicm9sZSI6IlVzZXIiLCJwaG9uZSI6Iis3OTkxNTU4NDM5MCIsImlhdCI6MTY0Nzg0NTU4MH0.bXxNPsR67bgnJi0eRDoe1vkaAAJV5uPQpPY2Mk2LqlpsCtGfNWIK6cHsAHtTJMQk-io_1mJy2s-TD5qF0PaeTlRvdXUjt8VVi7cPcxoLYO1Hrja9Z0WqcznPrQ72AGM3I7AyJCDJNmrVB4WxDgJS1WdWvIFn-aLgM-NVDnSHXv_aWNjtA1OPPYQyTxK2dqQjtZoGlrrWw6aeVS95Y9uSk83rPLZF0ai9TV6s47gNoxnu0ZgQyiA-KvWGwkWjET1Hv6S-YViDl0bWmbfQPjkKZFFBzz4WHtK8-wasQTH4kiN58AI0rPSnhCrmYRWYrlGX8h05p4LHH73NYDLARNpOfeFX7hwj8IdSKBdJYU0OgkICdXMgToj5kIvvjOzkXDhYuHWNGlxBkourZtXcy2zRg0Mjh6QeSK3s84CoqdLXRWAF9PKTfj6TjnF6UQzBb4Q9UJv5gsdTIvmJb_v5G5TVKI-NpqDx5sKb3TqBz6vYwmgAMde07bDx-aP4R7lAUxQ4kE_ziNyS0BYMxRqu6_2f7TgewLhTDatBAwJSerPQvHftoULqqWLfoVu2ycF6MDoRdsC42oDGLEWeBpWQV-JuHYf2TJHuo071hMgdjpVoLHkIB5vrv5_qMV3ZXbTUMou24fkyYkB0BqDkvBmZLQvRJw_VuFcNDvZVpYiYjS_41ro' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Origin: https://apteka.ru' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://apteka.ru/' \
+  -H 'Accept-Language: ru-UA,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk-UA;q=0.6,uk;q=0.5,ru-RU;q=0.4' \
+  --data-raw '{"items":[{"itemId":"5e8dfd0d1d186100011997d5","amount":3,"deferred":false,"notifyAppearance":false}]}' \
+  --compressed | jq
+
+curl -s 'https://api.apteka.ru/Order?cityId=5e60ee6e4313510001761cfe' \
+  -X 'PUT' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'X-ACTIVE-EXP: xiIfUJebR_OcLrbj56nRag:1' \
+  -H 'DNT: 1' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ODQwYzRhZC1lYzRiLTRiYTEtYmU4MC1iMDIwOGYxM2YyYmMiLCJqdGkiOiI2MjMzNjM0OGQyNjQ2YmUyZjAwNzhmNDkiLCJleHAiOjE2NjMzOTc1ODAsIm5iZiI6MTY0Nzg0NTU4MCwicm9sZSI6IlVzZXIiLCJwaG9uZSI6Iis3OTkxNTU4NDM5MCIsImlhdCI6MTY0Nzg0NTU4MH0.bXxNPsR67bgnJi0eRDoe1vkaAAJV5uPQpPY2Mk2LqlpsCtGfNWIK6cHsAHtTJMQk-io_1mJy2s-TD5qF0PaeTlRvdXUjt8VVi7cPcxoLYO1Hrja9Z0WqcznPrQ72AGM3I7AyJCDJNmrVB4WxDgJS1WdWvIFn-aLgM-NVDnSHXv_aWNjtA1OPPYQyTxK2dqQjtZoGlrrWw6aeVS95Y9uSk83rPLZF0ai9TV6s47gNoxnu0ZgQyiA-KvWGwkWjET1Hv6S-YViDl0bWmbfQPjkKZFFBzz4WHtK8-wasQTH4kiN58AI0rPSnhCrmYRWYrlGX8h05p4LHH73NYDLARNpOfeFX7hwj8IdSKBdJYU0OgkICdXMgToj5kIvvjOzkXDhYuHWNGlxBkourZtXcy2zRg0Mjh6QeSK3s84CoqdLXRWAF9PKTfj6TjnF6UQzBb4Q9UJv5gsdTIvmJb_v5G5TVKI-NpqDx5sKb3TqBz6vYwmgAMde07bDx-aP4R7lAUxQ4kE_ziNyS0BYMxRqu6_2f7TgewLhTDatBAwJSerPQvHftoULqqWLfoVu2ycF6MDoRdsC42oDGLEWeBpWQV-JuHYf2TJHuo071hMgdjpVoLHkIB5vrv5_qMV3ZXbTUMou24fkyYkB0BqDkvBmZLQvRJw_VuFcNDvZVpYiYjS_41ro' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Origin: https://apteka.ru' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://apteka.ru/' \
+  -H 'Accept-Language: ru-UA,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk-UA;q=0.6,uk;q=0.5,ru-RU;q=0.4' \
+  --data-raw '{"email":"gjghjjh@mail.ru","needCall":false,"needEmail":true,"device":"DesktopSite"}' \
+  --compressed | jq
