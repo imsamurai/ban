@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 4
     restart: always
-    command: "apteka ph 100"
+    command: "apteka ph_priority 100"
     ulimits:
       nofile:
         soft: 140000
@@ -16,7 +16,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "polypay ph_voenkomats"
+    command: "polypay ph_priority"
     ulimits:
       nofile:
         soft: 140000
@@ -26,7 +26,7 @@ services:
     deploy:
       replicas: 1
     restart: always
-    command: "yabloko161 ph_voenkomats"
+    command: "yabloko161 ph_priority"
     ulimits:
       nofile:
         soft: 140000
