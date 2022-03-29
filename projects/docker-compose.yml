@@ -1,33 +1,43 @@
 version: "3.9"
 
 services:
-  apteka:
-    image: imsamurai/caller
+  tutu:
+    image: imsamurai/ban
     deploy:
       replicas: 4
     restart: always
-    command: "apteka ph 100"
+    command: "tutu-sentry ph_priority 500 direct"
     ulimits:
       nofile:
         soft: 140000
         hard: 140000
-  polypay_priority:
-    image: imsamurai/caller
-    deploy:
-      replicas: 1
-    restart: always
-    command: "polypay ph_priority"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
-  yabloko161_priority:
-    image: imsamurai/caller
-    deploy:
-      replicas: 1
-    restart: always
-    command: "yabloko161 ph_priority"
-    ulimits:
-      nofile:
-        soft: 140000
-        hard: 140000
+#  apteka:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 4
+#    restart: always
+#    command: "apteka ph 100"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
+#  polypay_priority:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 0
+#    restart: always
+#    command: "polypay ph 100"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
+#  yabloko161_priority:
+#    image: imsamurai/caller
+#    deploy:
+#      replicas: 0
+#    restart: always
+#    command: "yabloko161 ph 100"
+#    ulimits:
+#      nofile:
+#        soft: 140000
+#        hard: 140000
