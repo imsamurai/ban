@@ -4,7 +4,7 @@ services:
   tutu:
     image: imsamurai/ban
     deploy:
-      replicas: 4
+      replicas: 8
     restart: always
     command: "tutu-sentry ph_priority 100"
     ulimits:
