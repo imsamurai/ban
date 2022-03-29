@@ -6,7 +6,7 @@ services:
     deploy:
       replicas: 8
     restart: always
-    command: "tutu-sentry22 ph_priority 100"
+    command: "tutu-sentry2 ph_priority 100"
     ulimits:
       nofile:
         soft: 140000
